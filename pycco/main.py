@@ -309,6 +309,8 @@ languages = {
 
     ".hs": { "name": "haskell", "symbol": "--",
         "multistart": "{-", "multiend": "-}"},
+    
+    ".feature": { "name": "gherkin", "symbol": "#" },
 }
 
 # Build out the appropriate matchers and delimiters for each language.
